@@ -18,12 +18,6 @@ fixed_values = {
 
 # Parameter ranges from parameters.json (adjusted for scale)
 parameter_ranges = {
-    2: {"min": 0, "max": 100, "type": "float"},    # Harp global gain
-    3: {"min": 0, "max": 100, "type": "float"},    # Chord global gain
-    4: {"min": 0, "max": 1024, "type": "int"},     # Chord alternate value
-    5: {"min": 0, "max": 1024, "type": "int"},     # Harp alternate value
-    6: {"min": 0, "max": 1024, "type": "int"},     # Mod alternate value
-    7: {"min": 0, "max": 10, "type": "float"},     # Firmware revision
     10: {"min": 40, "max": 219, "type": "int"},    # Chord alternate control
     11: {"min": 0, "max": 100, "type": "int"},     # Chord alternate range
     12: {"min": 40, "max": 219, "type": "int"},    # Harp alternate control
